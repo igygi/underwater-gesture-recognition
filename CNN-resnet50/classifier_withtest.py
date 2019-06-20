@@ -48,10 +48,6 @@ dataset_sizes = {x: len(image_datasets[x]) for x in ['train', 'val', 'test']}
 class_names = image_datasets['train'].classes
 
 print(class_names)
-class_counts = [4993, 4982, 4988, 5000, 4951, 4980, 4999, 4813, 4471, 3940, 3505, 2021, 1487, 1358, 1317, 1217, 1140, 1111, 976, 889, 745, 681, 671, 582, 9896]
-class_weights = np.array(class_counts)
-class_weights = 1/class_weights
-class_weights = list(class_weights)
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 print(device)
@@ -201,9 +197,9 @@ def test_model(model):
 	#		l = list(l)
 	#		csvwriter.writerows(l)
 
-	np.savetxt('resnet-50_test2.csv', confusion_matrix)
+	# np.savetxt('resnet-50_test2.csv', confusion_matrix)
 
 
-model_ft = pickle.load(open("caddy_%s_run%d_best.pickle" % (optim_algorithm, runcount), "rb"))
+model_ft = pickle.load(open("resnet50_CNN_caddy.pickle", "rb"))
 
 test_model(model_ft)
