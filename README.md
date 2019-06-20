@@ -8,11 +8,11 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
     o	helper.py – contains helper scripts for training and testing  
   •	To test:  
     o	Put train images in ./images/train folder; this is needed to get the classes to be used in  testing   
-    > Link to train images: https://drive.google.com/open?id=1JCXaT9PSnyJ4KgTzlumMrmwALVt-2V_t  
+    Link to train images: https://drive.google.com/open?id=1JCXaT9PSnyJ4KgTzlumMrmwALVt-2V_t  
     o	Put test images in ./images/test folder   
-    > Link to test images: https://drive.google.com/open?id=1ducpYZnC9dQznG90HbiyZSX3CYCR8UbR  
+    Link to test images: https://drive.google.com/open?id=1ducpYZnC9dQznG90HbiyZSX3CYCR8UbR  
     Put kmeans_cluster_3.sav, mega_histogram_3.pkl, svm_train_3.pkl, and vstack_3.pkl in the same directory as Bag.py and helpers.py   
-    > Link to pretrained weights: https://drive.google.com/open?id=1hSaZwRpbtOqFYep7Z4jW2kkKizEHoVqO  
+    Link to pretrained weights: https://drive.google.com/open?id=1hSaZwRpbtOqFYep7Z4jW2kkKizEHoVqO  
     o	run python Bag.py  
   •	Dependencies:  
     o	OpenCV 3.4.2.17 (OpenCV-contrib-python==3.4.2.17), scikit-learn 0.20.3  
@@ -24,9 +24,9 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
     o	visualize_predictions.py  
   •	To test:  
     o	Put test images in ./images/test folder   
-    > Link to test images: https://drive.google.com/open?id=1ducpYZnC9dQznG90HbiyZSX3CYCR8UbR  
+    Link to test images: https://drive.google.com/open?id=1ducpYZnC9dQznG90HbiyZSX3CYCR8UbR  
     o	Put hog_svm.joblib pre-trained model in ./models folder   
-    > Link to pretrained weights: https://drive.google.com/open?id=1pirGWIkZqWXBNSwQKuTdLpmMKowYrOUK  
+    Link to pretrained weights: https://drive.google.com/open?id=1pirGWIkZqWXBNSwQKuTdLpmMKowYrOUK  
     o	Create ./results/ folder, where the csv containing the target classes and predictions will be saved  
     o	Run testing.py  
   •	To visualize sample correct and incorrect predictions per class:  
@@ -41,7 +41,7 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
   •	To test:  
     •Place the test in ./images/test folder  
     o Put the pre-trained model resnet50_CNN_caddy.pickle in the same directory as classifier_withtest.py  
-    > Link to pretrained weights: https://drive.google.com/file/d/1EQxRwaFTZVlmVlTZDVx5Y1fcLAxjL6Qj/view?usp=sharing  
+    Link to pretrained weights: https://drive.google.com/file/d/1EQxRwaFTZVlmVlTZDVx5Y1fcLAxjL6Qj/view?usp=sharing  
     o Run classifier_withtest.py  
    •	Dependencies:  
     o pytorch 0.4.0  
