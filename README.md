@@ -45,6 +45,8 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
     o Run classifier_withtest.py
    •	Dependencies:
     o pytorch 0.4.0
+		o Cuda 9.0
+		
     
     
   
