@@ -3,15 +3,15 @@
 This repository contains the codes used in the paper "Underwater Gesture Recognition Using Classical Computer Vision and Deep Learning Techniques". The codes are divided into three groups: one for each model used in the paper.
 
 1. Bag of Visual Words (BOVW):
-  •	Scripts (adopted from Kushal Vyas’ implementation of Bag of Visual Words: https://github.com/kushalvyas/Bag-of-Visual-Words-Python) 
-    o	Bag.py – main script for training and testing
-    o	helper.py – contains helper scripts for training and testing
-  •	To test: 
-    o	Put train images in ./images/train folder; this is needed to get the classes to be used in  testing 
-    > Link to train images: https://drive.google.com/open?id=1JCXaT9PSnyJ4KgTzlumMrmwALVt-2V_t
-    o	Put test images in ./images/test folder 
-    > Link to test images: https://drive.google.com/open?id=1ducpYZnC9dQznG90HbiyZSX3CYCR8UbR
-    Put kmeans_cluster_3.sav, mega_histogram_3.pkl, svm_train_3.pkl, and vstack_3.pkl in the same directory as Bag.py and helpers.py 
+  •	Scripts (adopted from Kushal Vyas’ implementation of Bag of Visual Words: https://github.com/kushalvyas/Bag-of-Visual-Words-Python)  
+    o	Bag.py – main script for training and testing  
+    o	helper.py – contains helper scripts for training and testing  
+  •	To test:  
+    o	Put train images in ./images/train folder; this is needed to get the classes to be used in  testing   
+    > Link to train images: https://drive.google.com/open?id=1JCXaT9PSnyJ4KgTzlumMrmwALVt-2V_t  
+    o	Put test images in ./images/test folder   
+    > Link to test images: https://drive.google.com/open?id=1ducpYZnC9dQznG90HbiyZSX3CYCR8UbR  
+    Put kmeans_cluster_3.sav, mega_histogram_3.pkl, svm_train_3.pkl, and vstack_3.pkl in the same directory as Bag.py and helpers.py   
     > Link to pretrained weights: https://drive.google.com/open?id=1hSaZwRpbtOqFYep7Z4jW2kkKizEHoVqO
     o	run python Bag.py
   •	Dependencies:
