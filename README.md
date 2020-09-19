@@ -19,7 +19,7 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
     	2. Put ```hog_svm.joblib``` pre-trained model in ```./models``` folder (Link to pretrained weights: https://drive.google.com/open?id=1pirGWIkZqWXBNSwQKuTdLpmMKowYrOUK)
 	3. Create ```./results/``` folder, where the csv containing the target classes and predictions will be saved  
 	4. Run testing.py  
-- To visualize sample correct and incorrect predictions per class:  
+- To visualize sample correct and incorrect predictions per class
     	1. Create ```./visualization/``` folder, which will contain the sample images with predictions  
     	2. Run ```visualize_predictions.py```  
 - Dependencies:  
