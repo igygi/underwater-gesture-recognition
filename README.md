@@ -15,7 +15,7 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
 
 ### 2. Histogram of Gradients (HOG):  
 - To test:  
-	1. Put test images in ```./images/test``` folder   
+	1. Put test images in ```./images/test``` folder
     	2. Put ```hog_svm.joblib``` pre-trained model in ```./models``` folder (Link to pretrained weights: https://drive.google.com/open?id=1pirGWIkZqWXBNSwQKuTdLpmMKowYrOUK)
 	3. Create ```./results/``` folder, where the csv containing the target classes and predictions will be saved  
 	4. Run testing.py  
