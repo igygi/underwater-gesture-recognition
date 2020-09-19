@@ -20,8 +20,8 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
 	3. Create ```./results/``` folder, where the csv containing the target classes and predictions will be saved  
 	4. Run testing.py  
 - To visualize sample correct and incorrect predictions per class:
-    	1. Create ```./visualization/``` folder, which will contain the sample images with predictions  
-    	2. Run ```visualize_predictions.py```  
+	1. Create ```./visualization/``` folder, which will contain the sample images with predictions  
+	2. Run ```visualize_predictions.py```  
 - Dependencies:  
 	-OpenCV 4.1.0.25 (opencv-contrib-python==4.1.0.25), scikit-learn 0.21.0  
 
