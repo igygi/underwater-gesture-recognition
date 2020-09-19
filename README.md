@@ -2,10 +2,10 @@
 
 This repository contains the codes used in the paper "Underwater Gesture Recognition Using Classical Computer Vision and Deep Learning Techniques". The codes are divided into three groups: one for each model used in the paper.
 
-1. Bag of Visual Words (BOVW):
-  •	Scripts (adopted from Kushal Vyas’ implementation of Bag of Visual Words: https://github.com/kushalvyas/Bag-of-Visual-Words-Python)  
-    o	Bag.py – main script for training and testing  
-    o	helper.py – contains helper scripts for training and testing  
+### 1. Bag of Visual Words (BOVW):
+- Scripts (adopted from Kushal Vyas’ implementation of Bag of Visual Words: https://github.com/kushalvyas/Bag-of-Visual-Words-Python)  
+	-Bag.py – main script for training and testing  
+	- helper.py – contains helper scripts for training and testing  
   •	To test:  
     o	Put train images in ./images/train folder; this is needed to get the classes to be used in  testing   
     Link to train images: https://drive.google.com/open?id=1JCXaT9PSnyJ4KgTzlumMrmwALVt-2V_t  
@@ -16,7 +16,8 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
     o	run python Bag.py  
   •	Dependencies:  
     o	OpenCV 3.4.2.17 (OpenCV-contrib-python==3.4.2.17), scikit-learn 0.20.3  
-2. Histogram of Gradients (HOG):  
+
+### 2. Histogram of Gradients (HOG):  
   •	Scripts:  
     o	train.py  
     o	trim_hnm.py   
@@ -34,7 +35,8 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
     o	Run visualize_predictions.py  
   •	Dependencies:  
     o	OpenCV 4.1.0.25 (opencv-contrib-python==4.1.0.25), scikit-learn 0.21.0  
-3. ResNet50-CNN  
+
+### 3. ResNet50-CNN  
   •	Scripts:  
     o	data_augmentation.py  
     o	classifier_withtest.py  
