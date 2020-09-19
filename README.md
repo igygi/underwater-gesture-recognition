@@ -7,10 +7,10 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
 	-```Bag.py``` – main script for training and testing  
 	-```helper.py``` – contains helper scripts for training and testing  
 - To test:  
-	-Put train images in ```./images/train folder```; this is needed to get the classes to be used in testing
-	-Put test images in ```./images/test folder```
-	-Put ```kmeans_cluster_3.sav```, ```mega_histogram_3.pkl```, ```svm_train_3.pkl```, ```and vstack_3.pkl``` in the same directory as Bag.py and helpers.py   
-    	-run ```python Bag.py```  
+	1. Put train images in ```./images/train folder```; this is needed to get the classes to be used in testing
+	2. Put test images in ```./images/test folder```
+	3. Put ```kmeans_cluster_3.sav```, ```mega_histogram_3.pkl```, ```svm_train_3.pkl```, ```and vstack_3.pkl``` in the same directory as Bag.py and helpers.py   
+    	4. run ```python Bag.py```  
 - Links:
 	-Link to train images: https://drive.google.com/open?id=1JCXaT9PSnyJ4KgTzlumMrmwALVt-2V_t
 	-Link to test images: https://drive.google.com/open?id=1ducpYZnC9dQznG90HbiyZSX3CYCR8UbR  
