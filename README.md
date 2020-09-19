@@ -7,13 +7,14 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
 	-```Bag.py``` – main script for training and testing  
 	-```helper.py``` – contains helper scripts for training and testing  
 - To test:  
-	-Put train images in ```./images/train folder```; this is needed to get the classes to be used in  testing 
-	Link to train images: https://drive.google.com/open?id=1JCXaT9PSnyJ4KgTzlumMrmwALVt-2V_t
-	-Put test images in ./images/test folder   
-    	Link to test images: https://drive.google.com/open?id=1ducpYZnC9dQznG90HbiyZSX3CYCR8UbR  
-	-Put kmeans_cluster_3.sav, mega_histogram_3.pkl, svm_train_3.pkl, and vstack_3.pkl in the same directory as Bag.py and helpers.py   
-    	Link to pretrained weights: https://drive.google.com/open?id=1hSaZwRpbtOqFYep7Z4jW2kkKizEHoVqO  
+	-Put train images in ```./images/train folder```; this is needed to get the classes to be used in testing
+	-Put test images in ```./images/test folder```
+	-Put ```kmeans_cluster_3.sav```, ```mega_histogram_3.pkl```, ```svm_train_3.pkl```, ```and vstack_3.pkl``` in the same directory as Bag.py and helpers.py   
     	-run ```python Bag.py```  
+- Links:
+	-Link to train images: https://drive.google.com/open?id=1JCXaT9PSnyJ4KgTzlumMrmwALVt-2V_t
+	-Link to test images: https://drive.google.com/open?id=1ducpYZnC9dQznG90HbiyZSX3CYCR8UbR  
+	-Link to pretrained weights: https://drive.google.com/open?id=1hSaZwRpbtOqFYep7Z4jW2kkKizEHoVqO  
 - Dependencies:  
     o	OpenCV 3.4.2.17 (OpenCV-contrib-python==3.4.2.17), scikit-learn 0.20.3  
 
