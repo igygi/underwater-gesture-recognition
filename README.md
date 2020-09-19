@@ -3,9 +3,7 @@
 This repository contains the codes used in the paper "Underwater Gesture Recognition Using Classical Computer Vision and Deep Learning Techniques". The codes are divided into three groups: one for each model used in the paper.
 
 ### 1. Bag of Visual Words (BOVW):
-- Scripts (adopted from Kushal Vyas’ implementation of Bag of Visual Words: https://github.com/kushalvyas/Bag-of-Visual-Words-Python)  
-	-```Bag.py``` – main script for training and testing  
-	-```helper.py``` – contains helper scripts for training and testing  
+- Scripts (adopted from Kushal Vyas’ implementation of Bag of Visual Words: https://github.com/kushalvyas/Bag-of-Visual-Words-Python)   
 - To test:  
 	1. Put train images in ```./images/train folder```; this is needed to get the classes to be used in testing
 	2. Put test images in ```./images/test folder```
@@ -13,14 +11,9 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
     	4. Run ```python Bag.py```  
 
 - Dependencies:  
-    o	OpenCV 3.4.2.17 (OpenCV-contrib-python==3.4.2.17), scikit-learn 0.20.3  
+	-OpenCV 3.4.2.17 (OpenCV-contrib-python==3.4.2.17), scikit-learn 0.20.3  
 
 ### 2. Histogram of Gradients (HOG):  
-- Scripts:  
-	-train.py  
-	-trim_hnm.py   
-	-testing.py  
-	-visualize_predictions.py  
 - To test:  
 	1. Put test images in ```./images/test``` folder   
     	2. Put ```hog_svm.joblib``` pre-trained model in ```./models``` folder (Link to pretrained weights: https://drive.google.com/open?id=1pirGWIkZqWXBNSwQKuTdLpmMKowYrOUK)
@@ -28,22 +21,18 @@ This repository contains the codes used in the paper "Underwater Gesture Recogni
 	4. Run testing.py  
 - To visualize sample correct and incorrect predictions per class:  
     	1. Create ```./visualization/``` folder, which will contain the sample images with predictions  
-    	2. Run visualize_predictions.py  
+    	2. Run ```visualize_predictions.py```  
 - Dependencies:  
 	-OpenCV 4.1.0.25 (opencv-contrib-python==4.1.0.25), scikit-learn 0.21.0  
 
 ### 3. ResNet50-CNN  
-  •	Scripts:  
-    o	data_augmentation.py  
-    o	classifier_withtest.py  
-  •	To test:  
-    •Place the test in ./images/test folder  
-    o Put the pre-trained model resnet50_CNN_caddy.pickle in the same directory as classifier_withtest.py  
-    Link to pretrained weights: https://drive.google.com/file/d/1EQxRwaFTZVlmVlTZDVx5Y1fcLAxjL6Qj/view?usp=sharing  
-    o Run classifier_withtest.py  
-   •	Dependencies:  
-    o pytorch 0.4.0  
-    o Cuda 9.0  
+- To test:  
+	1. Place the test in ```./images/test``` folder  
+	2. Put the pre-trained model ```resnet50_CNN_caddy.pickle``` in the same directory as classifier_withtest.py (https://drive.google.com/file/d/1EQxRwaFTZVlmVlTZDVx5Y1fcLAxjL6Qj/view?usp=sharing)  
+	3. Run ```classifier_withtest.py``` 
+- Dependencies:  
+    - pytorch 0.4.0  
+    - cuda 9.0  
 		
     
  ### Datasets
